@@ -1,6 +1,6 @@
-/*Poppins Font*/
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+/*Livvic Font*/
 
+  @import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;400;500;600;700&family=Rubik:wght@300;500&display=swap');
 
 
 
@@ -10,4 +10,15 @@
     --darkblue:#6a88e4;
     --Black:#000000;
     --White: #ffffff;
+
+--bodyFont: font-family: 'Livvic', sans-serif;
+--h1-fontSize: 3rem;
+--h2-fontSize: 3rem;
+--h3-fontSize: 3rem;
+--h4-fontSize: 2.125rem;
+--h5-fontSize: 1.5rem;
+--button-font: 0.875rem;
+
+--body-max-width: 1320px;
 }
+

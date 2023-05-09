@@ -1,0 +1,23 @@
+.cards{
+    max-width: var(--body-max-width);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    border: 1px solid var(--lightgreen);
+   
+}
+.cardContent{
+    padding: 16px;
+}
+.cardImage{
+    width: 100%;
+}
+.contentTitle{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.cardText{
+    margin-bottom: 12px;
+}

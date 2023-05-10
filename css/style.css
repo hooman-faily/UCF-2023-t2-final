@@ -90,3 +90,6 @@ nav a:hover{
     align-items: center;
    
 }
+.nav-item{
+    background-color:var(--Yellow);
+}

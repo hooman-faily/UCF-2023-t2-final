@@ -1,11 +1,14 @@
 .cards{
     max-width: var(--body-max-width);
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
+    max-width: 1320px;
+    margin: auto;
+    
 }
 .card{
-    border: 1px solid var(--lightgreen);
+    border: 1px solid var(--White);
    
 }
 .cardContent{

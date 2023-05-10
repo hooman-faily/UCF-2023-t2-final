@@ -34,11 +34,35 @@
     <!--top navigation end-->
 </header>
 
-<section class="hero">
-  <div class="heropic">
-      <img src="images/home_hero.png" alt="hero pic" class="avatar">
+<section class="hero row"> 
+ <div class="col-4">
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Explore</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Plan</button>
+    </li>
+   
+  </ul>
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Plan</div>
+    
   </div>
-  <div class="heroContent">
+ </div>
+</section>
+
+  <div class="welcomeContent">
       <h3>
         Welcome to Roadside America! 
       </h3>
@@ -46,7 +70,6 @@
         Here, you can find odd and hilarious travel destinations -- over 15,000 places in the U.S.A. and Canada -- ready for exploration.
       </p>
   </div>
-
   <section class="attractions">
     <h4>Explore Attractions</h4>
     <div class="cards">
@@ -109,6 +132,6 @@
     </div>
 </section>
 <section style="height:200px"></section>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

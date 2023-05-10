@@ -28,7 +28,7 @@ h5{
 
 nav a{
     text-decoration: none;
-    color: var(--Secondary);
+    color: var(--Black);
     padding: 10px;
 
 }
@@ -37,32 +37,56 @@ nav a:hover{
     color: var(--Primary);
     background-color: white;
 }
-.hero{
-    padding: 80px 92px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 1320px;
-    justify-content: center;
-    margin: auto;
-}
 
+.hero h3{
+    text-align: center;
+}
 .heropic{
-    width: 100%;
-    padding: 34px 40px;
+    width: 1320px;
+    padding: 34px 0px;
 }
 
 .avatar{
     width: 100%;
 }
-.heroContent{
-    max-width: 100%;
-}
+.welcomeContent{
+    background-image: url(../images/usamap.png);
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}
+.welcomeContent p{
+    font-size: 32px;
+}
+.welcomeContent h3{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
 .logo{
     height:80px ;
 }
 
 .attractions h4{
     text-align: center;
+   
+}
+
+.hero{
+    background-image: url(../images/home_hero.png);
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
